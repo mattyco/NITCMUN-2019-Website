@@ -244,6 +244,10 @@ jQuery(document).ready(function ($) {
 						cl = "registrationnitc";
 						break;
 					case 7:
+							sectionNav = $('.contactnitc');
+							cl = "contactnitc";
+							break;
+					case 8:
 						sectionNav = $('.');
 						break;
 				}
