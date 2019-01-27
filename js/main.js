@@ -57,7 +57,7 @@ jQuery(document).ready(function ($) {
 						navSection(event, 3);
 					});
 
-					$("#navgallery").click(function () {
+					$("#navcollab").click(function () {
 						navSection(event, 4);
 					});
 
@@ -234,7 +234,8 @@ jQuery(document).ready(function ($) {
 						cl = "disecnitc";
 						break;
 					case 4:
-						sectionNav = $('.');
+						sectionNav = $('.collabnitc');
+						cl = "collabnitc";
 						break;
 					case 5:
 						sectionNav = $('.');
