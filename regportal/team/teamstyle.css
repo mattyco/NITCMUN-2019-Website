@@ -92,3 +92,37 @@
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
 }
+
+/*--------------------------------------------------------
+primary styles
+---------------------------------------------------------*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  background-color: #262423;
+}
+
+a {
+  color: #a8ae7e;
+  text-decoration: none;
+}
+
+h1{
+    padding:4px;
+}
+
+@media only screen and (min-width: 1024px){
+  h2 {
+    width: 80%;
+    padding: 2px;
+    background-color: #fff;
+    color: #000;
+    margin: 10%; 
+  }
+}
