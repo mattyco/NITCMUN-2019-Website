@@ -209,9 +209,9 @@
    -webkit-tap-highlight-color: rgba(0,0,0,0);
    border-top: 1px solid white;
    text-decoration: none;
-   background: #f4421a00;
+   background: transparent;
    padding: 0.7em 1em;
-   color: #fff;
+   color: transparent;
    width: 100%;
    float: left;
    transition: all 0.5s;
@@ -234,7 +234,7 @@
  }
  
  .nav-collapse ul ul a {
-   background: #ca3716;
+   background: transparent;
    padding-left: 2em;
  }
  

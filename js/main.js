@@ -61,7 +61,7 @@ jQuery(document).ready(function ($) {
 						navSection(event, 4);
 					});
 
-					$("#navsponsors").click(function () {
+					$("#naveboard").click(function () {
 						navSection(event, 5);
 					});
 
@@ -238,7 +238,8 @@ jQuery(document).ready(function ($) {
 						cl = "collabnitc";
 						break;
 					case 5:
-						sectionNav = $('.');
+						sectionNav = $('.eboard');
+						cl = "eboard";
 						break;
 					case 6:
 						sectionNav = $('.registrationnitc');
@@ -743,3 +744,11 @@ jQuery(document).ready(function ($) {
 				}, 1]
 			]
 		});
+
+$(function() {
+  $('.eboard-wrapper').click(function() {
+  	$('.eboard-content').toggleClass('open');
+  	$(this).toggleClass('open');
+  })
+  
+})
